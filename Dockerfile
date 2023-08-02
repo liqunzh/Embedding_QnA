@@ -12,4 +12,4 @@ ADD . /app/
 
 EXPOSE 8000
 
-CMD ["python", "-m streamlit run app/Home.py --server.port 8000 --server.address 0.0.0.0"]
+CMD ["python", "-m streamlit run ./Home.py --server.port 8000 --server.address 0.0.0.0"]
